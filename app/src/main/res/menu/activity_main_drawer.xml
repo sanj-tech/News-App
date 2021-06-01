@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_notification_overlay"
+            android:title="BBC"
+
+
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/aljarzera"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/cnn"
+            android:menuCategory="secondary"/>
+
+        <item
+            android:id="@+id/nav_foxNewsFragement"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/fox_News"
+            android:menuCategory="secondary"
+            />
+
+        <item
+            android:id="@+id/nav_skyNewsFragement"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/skynews"
+            android:menuCategory="secondary"/>
+
+    </group>
+
+    <item android:title="UpComing"
+        android:menuCategory="secondary">
+
+        <menu>
+            <item
+                android:id="@+id/ny"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="New Yark Times"
+                android:menuCategory="secondary"/>
+
+        </menu>
+
+
+    </item>
+
+
+</menu>
